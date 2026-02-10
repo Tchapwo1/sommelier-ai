@@ -70,7 +70,13 @@ export default function Home() {
                     className="relative"
                     aria-label="Open profile"
                 >
-                    <div className="w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-800 overflow-hidden border-2 border-primary/20" />
+                    <div className="w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-800 overflow-hidden border-2 border-primary/20">
+                        <img
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSVWkQLwCz-if8Sb7IOPTXbtGboIeF0bqpvIvJTJ6piECs4BmAKhEWml-g71ZvYg76sjx-hk9r-hEOE5_4uaV80CESms-IeBZMQSP5-c-MfmOqsBmxl-7ss3VKubCa-gAut_jl6zGzqWPD35Ci342ah81UDpbI467lJkzUb1a7UDylw2RCOsxv_-msDnnUIvwwKWKly9INEJrTyeeZtID_wZcrx9vgGYiRhazm5gPkKQdljGSIXbewxTV9Og2QFlXEp9H4eg4318E"
+                            alt="User profile"
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
                     <div className="absolute bottom-0 right-0 w-3 h-3 bg-primary rounded-full border-2 border-white dark:border-background-dark" />
                 </button>
             </header>
@@ -165,7 +171,11 @@ export default function Home() {
                         </div>
 
                         <div className="w-20 h-32 relative">
-                            <div className="absolute inset-0 w-full h-full object-contain drop-shadow-2xl rotate-12 bg-[radial-gradient(circle_at_30%_30%,rgba(255,255,255,0.10),transparent_60%)] rounded-xl" />
+                            <img
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiIPxTVTJweTyAg1ZViu7EPhcsyF2wX-Mw8-AIiNrgZkj2rp3XH2KsG04kaApRui_j45kakIys6C2y3-OfLAAyPjPvxvDpJG_Wt4dRYOjC-ka6l3Blr5GM2FJqS1x4d1tYddTrEr8y8OOkHbk5gkw8lZ8jrqh90S-tHvfWLETohe356L8JDl-1W5vLxGbIAKnpzyKzQTon5XJxTehZN9YbMvHGrMMXFBI8uAncEcUpbTtVO15pzeyJesOUw8EZZK9FPSkg1Ur421c"
+                                alt="Red wine bottle"
+                                className="absolute inset-0 w-full h-full object-contain drop-shadow-2xl rotate-12"
+                            />
                         </div>
                     </div>
                     <div className="absolute -top-10 -right-10 w-40 h-40 bg-primary/10 rounded-full blur-3xl" />
